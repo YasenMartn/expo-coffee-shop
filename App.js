@@ -8,7 +8,7 @@ import {
 import * as SplashScreen from "expo-splash-screen";
 import { useCallback, useEffect, useState } from "react";
 import * as Font from "expo-font";
-import Main from "./Main";
+import Main from "./navigation/Main"; 
 import { Provider } from "react-redux";
 import store from "./redux/store";
 

@@ -1,10 +1,9 @@
-import { Image, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 const Login = () => {
   return (
     <View style={styles.body} >
       <Text style={styles.text}>Login</Text>
-      <Image source={require("../assets/icon.png")} style={styles.imgContainer}/>
     </View>
   );
 };

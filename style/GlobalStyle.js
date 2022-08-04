@@ -24,26 +24,6 @@ export default StyleSheet.create({
       fontSize: 18,
       borderRadius: 6,
     },
-    errorText: {
-      color: 'crimson',
-      fontWeight: 'bold',
-      marginBottom: 10,
-      marginTop: 6,
-      textAlign: 'center',
-    },
-    icon:{
-      color: "#0d6efd",
-      fontSize: 45,
-    },
-    modalContent: {
-      flex: 1,
-      padding: 20,
-    },
-    modalIcon: {
-      color: "#0d6efd",
-      alignSelf: "center",
-      fontSize: 45,
-    },
 })
 
 export const images = {

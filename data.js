@@ -1,0 +1,76 @@
+export const coffee = [
+  {
+    id: 1,
+    name: "Americano",
+    pic: require("./assets/americano.jpg"),
+    price: 20,
+    rating: "5.0",
+    reviews: "(458)",
+    type: "Drink",
+    food: "",
+    desc: "Recognised by the froth on top, an Americano is one part espresso shot, one part textured milk and one part froth on top with a dusting of chocolate to finish.",
+  },
+  {
+    id: 2,
+    name: "Espresso",
+    pic: require("./assets/espresso.jpg"),
+    price: 25,
+    rating: "5.0",
+    reviews: "(458)",
+    type: "Drink",
+    food: "Cookie",
+    desc: "Recognised by the froth on top, an Americano is one part espresso shot, one part textured milk and one part froth on top with a dusting of chocolate to finish.",
+  },
+  {
+    id: 3,
+    name: "Latte",
+    pic: require("./assets/latte.jpg"),
+    price: 15,
+    rating: "5.0",
+    reviews: "(458)",
+    type: "Drink",
+    food: "Cookie",
+    desc: "Recognised by the froth on top, an Americano is one part espresso shot, one part textured milk and one part froth on top with a dusting of chocolate to finish.",
+  },
+  {
+    id: 4,
+    name: "Mocha",
+    pic: require("./assets/mocha.jpg"),
+    price: 10,
+    rating: "5.0",
+    reviews: "(458)",
+    type: "Drink",
+    food: "Cookie",
+    desc: "Recognised by the froth on top, an Americano is one part espresso shot, one part textured milk and one part froth on top with a dusting of chocolate to finish.",
+  },
+  {
+    id: 5,
+    name: "Cold Brew",
+    pic: require("./assets/coldBrew.jpg"),
+    price: 30,
+    rating: "5.0",
+    reviews: "(458)",
+    type: "Drink",
+    food: "Cookie",
+    desc: "Recognised by the froth on top, an Americano is one part espresso shot, one part textured milk and one part froth on top with a dusting of chocolate to finish.",
+  },
+];
+
+
+export const banners = [
+  {
+    id: 1,
+    img: require("./assets/bannercoffee.png"),
+    color: "black",
+  },
+  {
+    id: 2,
+    img: require("./assets/bannerbrown.png"),
+    color: "#522700",
+  },
+  {
+    id: 3,
+    img: require("./assets/bannergreen.png"),
+    color: "#54877e",
+  },
+]

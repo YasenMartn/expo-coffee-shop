@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 
-const Login = () => {
+const Profile = () => {
   return (
     <View style={styles.body} >
-      <Text style={styles.text}>Login</Text>
+      <Text style={styles.text}>Profile</Text>
     </View>
   );
 };
 
-export default Login;
+export default Profile;
 
 const styles = StyleSheet.create({
   body: {

@@ -8,7 +8,7 @@ import {
 import * as SplashScreen from "expo-splash-screen";
 import { useCallback, useEffect, useState } from "react";
 import * as Font from "expo-font";
-import Main from "./navigation/Main"; 
+import DrawerNav from "./navigation/DrawerNav"; 
 import { Provider } from "react-redux";
 import store from "./redux/store";
 
@@ -52,7 +52,7 @@ export default function App() {
 
   return(
     <Provider store={store}>
-      <Main />
+      <DrawerNav />
     </Provider>
   ); 
 }
